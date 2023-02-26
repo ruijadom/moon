@@ -1,5 +1,4 @@
 # Moon starter (Next.js, TypeScript, Rollup.js, Tailwind, Storybook, Docker, ESLint, Jest, Prettier,)
-
 ### Apps and Packages
 
 - Apps
@@ -10,3 +9,4 @@
   - `storybook`: a [Storybook.js](https://storybook.js.org/) app
  - `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
  - `tsconfig`: `tsconfig.json`s used throughout the monorepo
+
