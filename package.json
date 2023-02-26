@@ -1,0 +1,35 @@
+{
+  "name": "moon-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "author": "ruijadom",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "storybook": "turbo run storybook",
+    "build:storybook": "turbo run build:storybook",
+    "build:ui": "turbo run build:ui",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=ui^... && changeset publish"
+    
+  },
+  "devDependencies": {
+    "next-link": "^2.0.0",
+    "prettier": "^2.5.1",
+    "react-dom": "^17.0.2",
+    "turbo": "latest",
+    "@changesets/cli": "^2.26.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
