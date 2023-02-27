@@ -33,5 +33,7 @@
   "engines": {
     "node": "16.x"
   },
-  "publishConfig": { "@ruijadom:registry": "https://npm.pkg.github.com" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
