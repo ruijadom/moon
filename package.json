@@ -1,7 +1,6 @@
 {
   "name": "moon-monorepo",
   "version": "0.0.1",
-  "private": true,
   "author": "ruijadom",
   "workspaces": [
     "apps/*",
