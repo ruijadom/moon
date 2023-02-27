@@ -2,6 +2,7 @@
   "name": "moon-monorepo",
   "version": "0.0.1",
   "author": "ruijadom",
+  "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
