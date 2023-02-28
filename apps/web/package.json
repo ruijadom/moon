@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@moon/web",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,12 +17,12 @@
   "devDependencies": {
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",
-    "config": "*",
+    "@moon/config": "*",
     "eslint": "8.34.0",
     "next-transpile-modules": "10.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
-    "tsconfig": "*",
+    "@moon/tsconfig": "*",
     "typescript": "^4.9.5"
   },
   "engines": {
