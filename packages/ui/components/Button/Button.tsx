@@ -16,7 +16,7 @@ const sizeMap = {
   "xl": "px-7 py-4"
 }
 
-export const Button = ({ asChild, size = "sm", disabled, children, ...nativeProps }: ButtonProps) => {
+export const Button = ({ asChild, size = "sm", disabled, children, ...nativeProps }: ButtonProps): React.ReactElement => {
   const Comp = asChild ? Slot : 'button';
 
 
