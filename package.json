@@ -20,7 +20,7 @@
     "test:watch": "turbo run test:watch",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=@moon/ui^... && changeset publish"
+    "release": "turbo run build --filter=ui^... && changeset publish"
     
   },
   "devDependencies": {
