@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@moon/tsconfig",
   "version": "0.0.1",
   "main": "index.js",
   "files": [
