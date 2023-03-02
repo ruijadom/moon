@@ -27,6 +27,6 @@ export const Button = ({ asChild, size = "sm", disabled, children, ...nativeProp
       disabled ? "bg-green-300 cursor-default" : "bg-green-500 hover:bg-green-600 active:bg-green-600 focus:outline-none focus:ring focus:ring-green-300",
       // Default
       "gap-2 inline-flex rounded-lg text-white text-sm font-medium items-center justify-center"
-    )} />
+    )}>{children}</Comp>
   )
 }
